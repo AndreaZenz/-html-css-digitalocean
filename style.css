@@ -6,13 +6,16 @@
     font-size: 16px;
     font-weight: 600;
 }
-
-.bigger-font ,h1{
-    font-size: 45px;
+.semi-font{
+    font-size: 25px;
     font-weight: 600;
 }
 .medium-font{
     font-size: 35px;
+    font-weight: 600;
+}
+.bigger-font ,h1{
+    font-size: 45px;
     font-weight: 600;
 }
 
@@ -141,28 +144,53 @@
    vertical-align: middle; 
    display: inline-block;
 }
-.carosel-freccia{
-    
-}
+
 .carosel-section{
     max-width: 700px;
 }
 .slide-image{
     width: calc(100% - 75px);
-
-
 }
 
+.blue-circle{
+    height: 20px;
+    width: 20px;
+    background-color: #006aff;
+    border-radius: 50%;
+    display: inline-block;
+}
+.border-circle{
+    height: 20px;
+    width: 20px;
+    border:1px solid #006aff;
+    border-radius: 50%;
+    display: inline-block;
+}
 .carosel-text h4, .carosel-text{
     text-align: center;
     margin-top: 15px;
 }
 /* carosel section quarta del main */
 
+/* sesta section 12 regions */
+.bg-gradient-blue{
+    color: white;
+    background-image: linear-gradient(180deg, #00219c, #0047c5);
+}
 
+.my-list-group-item {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid white;
+}
 
+.my-list-group-item >div{
+    display: inline-block;
+}
 
-
+.marg-r{
+    margin-right: 20%;
+}
 
 
 
@@ -183,6 +211,17 @@
     .logo-img{
         width:calc(97%/2)
     }
+
+    .carosel-freccia{
+        display: none;
+    }
+
+    .slide-image{
+        width: 100%;
+    }
+        
+        
+    
 }
 @media all and (max-width: 1199px){
     .my-navbar .col-xs-4 p{
