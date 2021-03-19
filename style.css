@@ -6,6 +6,10 @@
     font-size: 16px;
     font-weight: 600;
 }
+
+.footer-text{
+    color: #8b94a9;
+}
 .semi-font{
     font-size: 25px;
     font-weight: 600;
@@ -210,6 +214,8 @@
 .carousel2{
     margin: 65px 80px;
 }
+
+
 /* fine secondo carousel */
 
 /* pre-footer */
@@ -221,6 +227,18 @@
     background-color: white;
     margin-top: 10px;
 }
+/* fine pre-footer */
+/* footer */
+
+.fa { 
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #8b94a9;
+    padding-left: 5px;
+}
+
+/* footer */
 /* media query mobile */
 @media all and (max-width: 767px) {
     .w-20{
@@ -243,7 +261,9 @@
         width: 100%;
     }
         
-        
+    .carousel2-img{
+        max-width: 250px;
+    }
     
 }
 @media all and (max-width: 1199px){
