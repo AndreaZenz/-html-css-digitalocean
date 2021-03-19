@@ -1,37 +1,46 @@
 /* utilities */
-.bigger-font .h1, h1{
+
+/* fonts */
+.classic-text{
+    color: #77829d;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.bigger-font ,h1{
     font-size: 45px;
     font-weight: 600;
+}
+.medium-font{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.email-text .h4, h4,{
+    font-weight: 600;
+    font-size: 25px;
+}
+/* fonts */
+.block{
+    display: block;
 }
 .w-20{
     width: 20%;
 }
-
 .section, .ptb-50{
-    padding: 20px 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
-
-.classic-text{
-    color: #77829d;
-    font-size: 14px;
-    font-weight: 600;
-}
-
 .black-text{
     color: black;
 }
 .blue-text{
+    /* utilities */
     color: #337ab7;
-}
-
-.email-text .h4, h4{
-    font-weight: 600;
-    font-size: 25px;
 }
 .bg-grey{
     background-color: #f3f5f9;
 }
-/* utilities */
 /* navbar */
 .digital-ocean-logo{
     width: 250px;
@@ -72,7 +81,6 @@
     color: black;
 }
 /* fine navbar */
-
 /* prima section del main */
 .bg-jumbo{
     background-image:url(img/bg-banner-home.jpg);
@@ -108,7 +116,6 @@
     left: 10px;
 }
 /* fine prima section del main */
-
 /* seconda section del main */
 .logo-img{
     width: calc(97%/6);
@@ -116,12 +123,48 @@
     line-height: 100px;
     display: inline-block;
 }
-
-
-
-
-
 /* fine secondasection del main */
+/* terza section del main  */
+.my-list-group-item:first-child,
+.my-list-group-item:last-child{
+    border-radius: 0;
+}
+
+.my-list-group-item{
+    border: none;
+    border-left: 1px solid #77829d;
+}
+/* terza section del main  */
+
+/* carosel section quarta del main */
+.carosel{
+   vertical-align: middle; 
+   display: inline-block;
+}
+.carosel-section{
+    max-width: 700px;
+}
+.slide-image{
+    width: 500px;
+}
+
+.carosel-text h4, .carosel-text{
+    text-align: center;
+    margin-top: 15px;
+}
+/* carosel section quarta del main */
+
+
+
+
+
+
+
+
+
+
+
+
 /* media query mobile */
 @media all and (max-width: 767px) {
     .w-20{
