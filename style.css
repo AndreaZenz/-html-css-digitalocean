@@ -41,9 +41,23 @@
     /* utilities */
     color: #337ab7;
 }
+.white-text{
+    color: white;
+}
 .bg-grey{
     background-color: #f3f5f9;
 }
+.bg-white{
+    background-color: white;
+}
+.bg-blue{
+    background-color: #0033ae;
+}
+.bg-dark{
+    background-color:#031c4e;
+
+}
+
 /* navbar */
 .digital-ocean-logo{
     width: 250px;
@@ -191,13 +205,22 @@
 .marg-r{
     margin-right: 20%;
 }
+/* fine sesta section 12 regions */
+/* inizio secondo carousel */
+.carousel2{
+    margin: 65px 80px;
+}
+/* fine secondo carousel */
 
+/* pre-footer */
 
-
-
-
-
-
+.my-button-started{
+    color: #006aff;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: white;
+    margin-top: 10px;
+}
 /* media query mobile */
 @media all and (max-width: 767px) {
     .w-20{
