@@ -164,8 +164,8 @@
 
 /* carosel section quarta del main */
 .carosel{
-   vertical-align: middle; 
-   display: inline-block;
+    vertical-align: middle; 
+    display: inline-block;
 }
 
 .carosel-section{
@@ -332,8 +332,5 @@
         
     }
 
-    
 }
- 
-   
 
