@@ -28,9 +28,9 @@
     font-weight: 600;
 }
 
-.email-text .h4, h4,{
-    font-weight: 600;
-    font-size: 25px;
+.email-text .h4, h4 {
+    font-weight : 600;
+    font-size : 25px;
 }
 /* fonts */
 .block{
@@ -219,13 +219,9 @@
 .carousel2{
     margin: 65px 80px;
 }
-
-
 /* fine secondo carousel */
 
 /* pre-footer */
-
-
 .my-button-started{
     color: #006aff;
     font-size: 18px;
@@ -333,4 +329,3 @@
     }
 
 }
-
