@@ -201,13 +201,13 @@
     background-image: linear-gradient(180deg, #00219c, #0047c5);
 }
 
-.my-list-group-item {
+.my-list-group-12 {
     background-color: transparent;
     border: 0;
     border-bottom: 1px solid white;
 }
 
-.my-list-group-item >div{
+.my-list-group-12 >div{
     display: inline-block;
 }
 
@@ -236,7 +236,9 @@
 /* fine pre-footer */
 /* footer */
 
-
+.socialmediaicons2{
+    font-size: 2em;
+}
 
 .shark-container{
     position: fixed;
