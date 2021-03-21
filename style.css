@@ -68,6 +68,9 @@
 }
 
 /* navbar */
+.my-navbar div a{
+    color: black;
+}
 .digital-ocean-logo{
     width: 250px;
     vertical-align: middle;
@@ -97,7 +100,7 @@
     text-align: right;
 }
 
-.my-btn-transp{
+#my-btn-trasp{
     background-color: transparent;
     border-color:#5c9fff;
     color: #5c9fff;
