@@ -68,8 +68,12 @@
 }
 
 /* navbar */
-.my-navbar div a{
+.my-navbar div ul li a{
     color: black;
+}
+
+.my-navbar div ul li {
+    display:inline-block;
 }
 .digital-ocean-logo{
     width: 250px;
@@ -292,6 +296,9 @@
     bottom: 6px;
 }
 
+footer ul li{
+    list-style-type: none;
+}
 /* footer */
 /* media query mobile */
 
